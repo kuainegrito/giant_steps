@@ -2,7 +2,7 @@
 
 用代码讲解 John Coltrane《Giant Steps》（1959）背后的和声逻辑 —— **把八度三等分的 Coltrane changes** —— 并生成一段即兴演示。
 
-- 🎬 成片：见 [Releases](https://github.com/kuainegrito/giant_steps/releases)（1080p，约 6.8 分钟，中文配音 + 中英字幕）
+- 🎬 成片：1080p / 30fps，6 分 50 秒，中文配音 + 中英字幕（视频文件约 111 MB，不放进 Git；发布在 [Releases](https://github.com/kuainegrito/giant_steps/releases)，或运行 `make all` 自行生成）
 - 🧠 思考过程：从乐理推导到每一个设计决策，都记录在 `docs/`
 - 🧩 可复用：所有音乐内容都是 JSON，画面是纯函数 `render(t)`，为之后的互动网页准备
 
