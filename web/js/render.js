@@ -578,8 +578,8 @@ export function createRenderer(canvas, timeline, song) {
       const a0 = nodePos(st, seq[Math.floor(k)]), a1 = nodePos(st, seq[Math.floor(k) + 1]);
       const u = ease(k % 1);
       drawGlow(lerp(a0[0], a1[0], u), lerp(a0[1], a1[1], u), 70, '#ffe9c4', walkA * 0.9);
-      const [hx, hy] = nodePos(st, 0, 1.36);
-      text('家 · home', hx, hy - 6, { size: 26, color: '#ffe9c4', alpha: walkA * 0.9 });
+      const [hx, hy] = nodePos(st, 0, 1.17);
+      text('家 · home', hx - 46, hy, { size: 26, color: '#ffe9c4', alpha: walkA * 0.9, align: 'right', baseline: 'middle' });
     }
     // neighbours of C during L09
     const nb = windowA(t, L('L09'), S.S2.end, 0.6, 0.8);
@@ -666,7 +666,7 @@ export function createRenderer(canvas, timeline, song) {
     drawCircle(t, st, hl);
     for (const [dpc, tpc, k, sym, ci] of dom) {
       const p = prog(t, C('L17', ci + 1) - 0.35, C('L17', ci + 1) + 0.25);
-      const aa = windowA(t, C('L17', ci), S.S4.end, 0.3, 0.8);
+      const aa = windowA(t, C('L17', ci), S.S4.end, 0.3, 0.8) * (1 - 0.85 * windowA(t, C('L19', 0), S.S4.end + 1, 0.8, 0.1));
       drawArrow(st, dpc, tpc, rgba(KEY_COLORS[k], 0.9), p, aa, -0.45);
       const [x, y] = nodePos(st, dpc, 0.7);
       text(sym, x, y, { font: SERIF_EN, size: 34, weight: 600, color: KEY_COLORS[k], alpha: aa, baseline: 'middle' });
@@ -713,8 +713,8 @@ export function createRenderer(canvas, timeline, song) {
     drawComet(t, st, 'band_slow');
     drawGrid(t, 1000, 250, 192, 86, 14, ga, { emph, cueIds: ['band_slow'] });
     // annotations
-    text('前半  B → G → E♭  大三度下行 ↓', 1000, 222, { size: 26, align: 'left', color: INK, alpha: ga * windowA(t, C('L20', 3), L('L22'), 0.5, 0.6), spacing: 2 });
-    text('后半  ii–V 引入  大三度上行 ↑', 1000, 222, { size: 26, align: 'left', color: INK, alpha: ga * windowA(t, C('L21', 2), cueStart('band_slow'), 0.5, 0.6), spacing: 2 });
+    text('前半  B → G → E♭  大三度下行 ↓', 1000, 222, { size: 26, align: 'left', color: INK, alpha: ga * windowA(t, C('L20', 3), L('L21'), 0.5, 0.4), spacing: 2 });
+    text('后半  ii–V 引入  大三度上行 ↑', 1000, 222, { size: 26, align: 'left', color: INK, alpha: ga * windowA(t, L('L21') + 0.4, cueStart('band_slow'), 0.5, 0.6), spacing: 2 });
     if (band) {
       const c = chordAt(t);
       const ba = windowA(t, cueStart('band_slow'), cueEnd('band_slow') + 1, 0.6, 1);
@@ -825,7 +825,7 @@ export function createRenderer(canvas, timeline, song) {
       if (a1) { ctx.beginPath(); ctx.moveTo(tx - 270, ty - 95); ctx.quadraticCurveTo(tx - 120, ty - 90, tx - 40, ty - 10); ctx.stroke(); }
       if (a2) { ctx.beginPath(); ctx.moveTo(tx - 270, ty + 38); ctx.quadraticCurveTo(tx - 120, ty + 30, tx - 40, ty + 6); ctx.stroke(); }
       ctx.restore();
-      text('包围 enclosure  ·  半音接近 approach', tx + 300, ty + 10, { size: 28, alpha: en * prog(t, L('L27') + 2.6, L('L27') + 3.4), spacing: 2 });
+      text('包围 enclosure  ·  半音接近 approach', tx, ty + 175, { size: 28, alpha: en * prog(t, L('L27') + 2.6, L('L27') + 3.4), spacing: 2 });
     }
   }
 

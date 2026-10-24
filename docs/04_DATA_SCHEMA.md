@@ -59,7 +59,7 @@
 - `t` 是从这段演奏开始算起的拍数，已包含摇摆和人性化偏移；乘以 `60 / bpm` 即秒。
 - `chord` 指向 `giant_steps.json` 的 `chords[index]`。
 - 由时间轴生成的背景段（`ambient_*`、`iiVI_C`、`three_tonics`、`dominants`、`notes_1235`）`bpm = 60`，即 1 拍 = 1 秒，并带 `"generated_for_timeline": true`。
-- 同一份数据也被写成 MIDI（`build/midi/<cue>.mid`），轨道/通道/音色见 `music/gs/midi_io.py` 的 `INSTRUMENTS`。
+- 同一份数据也被写成 MIDI（`data/midi/<cue>.mid`，构建时生成在 `build/midi/`），轨道/通道/音色见 `music/gs/midi_io.py` 的 `INSTRUMENTS`。
 
 ## 3. `data/script.json` —— 讲稿（人工编辑）
 

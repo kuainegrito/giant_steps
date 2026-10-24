@@ -24,6 +24,7 @@ frames: timeline          ## headless Chromium -> silent mp4
 
 video: audio frames
 	./video/encode.sh build/giant_steps.mp4
+	mkdir -p data/midi && cp build/midi/*.mid data/midi/
 
 stills:                   ## quick visual check, e.g. make stills T="12 95 300"
 	node video/capture.mjs stills $(T)
