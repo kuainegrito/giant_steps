@@ -1,0 +1,11 @@
+{
+  "name": "giant-steps",
+  "private": true,
+  "type": "module",
+  "description": "Giant Steps explainer: audio rendering, video capture, web renderer",
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.1.0",
+    "dejavu-fonts-ttf": "^2.37.3",
+    "spessasynth_core": "^4.3.22"
+  }
+}

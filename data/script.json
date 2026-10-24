@@ -1,0 +1,445 @@
+{
+ "title": "Giant Steps · 三颗星的轨道",
+ "title_en": "Giant Steps · Orbits of Three Stars",
+ "voice": {
+  "engine": "sherpa-onnx vits-melo-tts-zh_en",
+  "speaker": 0,
+  "speed": 0.85
+ },
+ "gap_between_lines": 0.55,
+ "scenes": [
+  {
+   "id": "S0",
+   "name": "序 Prologue",
+   "lead_in": 5.0,
+   "tail": 1.2,
+   "lines": [
+    {
+     "id": "L01",
+     "zh": "1959 年春天，纽约。萨克斯手约翰·柯川走进录音室，带来一首让所有乐手都心惊的曲子。",
+     "tts": "一九五九年春天，纽约。萨克斯手约翰柯川走进录音室，带来一首让所有乐手都心惊的曲子。",
+     "en": "Spring 1959, New York. Saxophonist John Coltrane walked into the studio with a tune that unnerved every musician who saw it."
+    },
+    {
+     "id": "L02",
+     "zh": "它叫 Giant Steps —— 巨人的脚步。",
+     "tts": "它叫 Giant Steps，巨人的脚步。",
+     "en": "It was called Giant Steps."
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "name": "背景 Context",
+   "lead_in": 0.6,
+   "tail": 1.0,
+   "lines": [
+    {
+     "id": "L03",
+     "zh": "速度接近每分钟 290 拍，和弦几乎每两拍就换一次，而且每一次，都跳向一个遥远的调。",
+     "tts": "速度接近每分钟二百九十拍，和弦几乎每两拍就换一次，而且每一次，都跳向一个遥远的调。",
+     "en": "Nearly 290 beats per minute, a new chord almost every two beats, and each one leaps to a distant key."
+    },
+    {
+     "id": "L04",
+     "zh": "连录音中的钢琴手汤米·弗拉纳根，也只能小心翼翼地弹出稀疏的音符。",
+     "tts": "连录音中的钢琴手汤米弗拉纳根，也只能小心翼翼地弹出稀疏的音符。",
+     "en": "Even the pianist on the session, Tommy Flanagan, could only pick his way through with sparse notes."
+    },
+    {
+     "id": "L05",
+     "zh": "但在这看似混乱的表面之下，藏着一个极其简单、也极其美的秩序。",
+     "tts": "但在这看似混乱的表面之下，藏着一个极其简单、也极其美的秩序。",
+     "en": "Yet beneath the apparent chaos lies an order that is remarkably simple, and remarkably beautiful."
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "name": "五度圈 The Circle of Fifths",
+   "lead_in": 1.0,
+   "tail": 1.0,
+   "lines": [
+    {
+     "id": "L06",
+     "zh": "先看普通的爵士和声。十二个音，可以按五度排成一个圆，叫做五度圈。",
+     "tts": "先看普通的爵士和声。十二个音，可以按五度排成一个圆，叫做五度圈。",
+     "en": "First, ordinary jazz harmony. The twelve notes can be arranged by fifths into a circle: the circle of fifths."
+    },
+    {
+     "id": "L07",
+     "zh": "爵士乐最常见的进行是 ii–V–I。比如在 C 大调里：Dm7，到 G7，再回到 Cmaj7。",
+     "tts": "爵士乐最常见的进行，是二五一。比如在C大调里，D小七，到G七，再回到C大七。",
+     "en": "Jazz's most common progression is the ii–V–I. In C major: Dm7, to G7, and home to Cmaj7."
+    },
+    {
+     "id": "L08",
+     "zh": "在五度圈上，它一步一步往回走，每一步都很近、很自然，耳朵始终知道「家」在哪里。",
+     "tts": "在五度圈上，它一步一步往回走，每一步都很近，很自然，耳朵始终知道家在哪里。",
+     "en": "On the circle it walks home step by step. Every step is close and natural; the ear always knows where home is."
+    },
+    {
+     "id": "L09",
+     "zh": "在一首普通的标准曲里，一个调往往会停留好几个小节，才慢慢走到隔壁的调。",
+     "tts": "在一首普通的标准曲里，一个调往往会停留好几个小节，才慢慢走到隔壁的调。",
+     "en": "In a typical standard, a key lingers for several bars before drifting to its neighbour."
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "name": "三等分八度 Dividing the Octave",
+   "lead_in": 1.0,
+   "tail": 1.2,
+   "lines": [
+    {
+     "id": "L10",
+     "zh": "柯川问了一个不同的问题：如果不去邻居家，而是把八度平均切成三份呢？",
+     "tts": "柯川问了一个不同的问题：如果不去邻居家，而是把八度平均切成三份呢？",
+     "en": "Coltrane asked a different question: instead of visiting the neighbours, what if you cut the octave into three equal parts?"
+    },
+    {
+     "id": "L11",
+     "zh": "一个八度有 12 个半音。12 ÷ 3 = 4。四个半音，就是一个大三度。",
+     "tts": "一个八度有十二个半音。十二除以三，等于四。四个半音，就是一个大三度。",
+     "en": "An octave has twelve semitones. Twelve divided by three is four. Four semitones make a major third."
+    },
+    {
+     "id": "L12",
+     "zh": "从 B 出发，向下走一个大三度，到 G；再走一个，到 E♭；再走一个，又回到了 B。",
+     "tts": "从B出发，向下走一个大三度，到G；再走一个，到降E；再走一个，又回到了B。",
+     "en": "Start on B. Down a major third to G. Again, to E-flat. Once more, and you are back at B."
+    },
+    {
+     "id": "L13",
+     "zh": "三个调，在圆上形成一个完美的等边三角形。",
+     "tts": "三个调，在圆上形成一个完美的等边三角形。",
+     "en": "Three keys form a perfect equilateral triangle on the circle."
+    },
+    {
+     "id": "L14",
+     "zh": "把它放回五度圈，三角形依然是等边的。这意味着，这三个调彼此之间几乎是最远的距离。",
+     "tts": "把它放回五度圈，三角形依然是等边的。这意味着，这三个调彼此之间，几乎是最远的距离。",
+     "en": "Put it back on the circle of fifths and the triangle is still equilateral: these three keys are about as far apart as keys can be."
+    },
+    {
+     "id": "L15",
+     "zh": "B 大调五个升号，G 大调一个升号，E♭ 大调三个降号。任意两个调的音阶，只有三个音相同。",
+     "tts": "B大调五个升号，G大调一个升号，降E大调三个降号。任意两个调的音阶，只有三个音相同。",
+     "en": "B major has five sharps, G major one, E-flat major three flats. Any two of these scales share only three notes."
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "name": "引力 Gravity",
+   "lead_in": 0.8,
+   "tail": 1.0,
+   "lines": [
+    {
+     "id": "L16",
+     "zh": "可是突然跳到很远的调，会显得生硬。柯川的办法是：在每个调前面，放上它的属七和弦。",
+     "tts": "可是突然跳到很远的调，会显得生硬。柯川的办法是，在每个调前面，放上它的属七和弦。",
+     "en": "But leaping to a distant key sounds abrupt. Coltrane's solution: put each key's dominant seventh chord in front of it."
+    },
+    {
+     "id": "L17",
+     "zh": "D7 把我们带到 G，B♭7 带到 E♭，F♯7 带回 B。",
+     "tts": "D七，把我们带到G；降B七，带到降E；升F七，带回B。",
+     "en": "D7 pulls us to G, B-flat 7 to E-flat, F-sharp 7 back to B."
+    },
+    {
+     "id": "L18",
+     "zh": "属和弦就像一股引力。每一次跳跃，都有一只手把你稳稳接住。",
+     "tts": "属和弦就像一股引力。每一次跳跃，都有一只手把你稳稳接住。",
+     "en": "The dominant is like gravity: every leap has a hand to catch you."
+    },
+    {
+     "id": "L19",
+     "zh": "这就是「柯川变化」：三个等距的主音，加上通往它们的属和弦。",
+     "tts": "这就是柯川变化：三个等距的主音，加上通往它们的属和弦。",
+     "en": "This is \"Coltrane changes\": three equidistant tonics, plus the dominants that lead to them."
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "name": "十六小节 The Sixteen Bars",
+   "lead_in": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "id": "L20",
+     "zh": "现在把整首曲子展开。十六个小节。前半段，三个调以大三度向下旋转：B，G，E♭。",
+     "tts": "现在把整首曲子展开。十六个小节。前半段，三个调以大三度向下旋转，B，G，降E。",
+     "en": "Now the whole tune: sixteen bars. In the first half, the three keys spin downward by major thirds: B, G, E-flat."
+    },
+    {
+     "id": "L21",
+     "zh": "后半段，每个调都由一组 ii–V 引入，方向反转，以大三度向上攀升。",
+     "tts": "后半段，每个调都由一组二五引入，方向反转，以大三度向上攀升。",
+     "en": "In the second half, each key is entered through a ii–V, and the direction reverses, climbing by major thirds."
+    },
+    {
+     "id": "L22",
+     "zh": "我们放慢速度，完整地听一遍。注意圆上的光点，在三个顶点之间不停跳跃。",
+     "tts": "我们放慢速度，完整地听一遍。注意圆上的光点，在三个顶点之间不停跳跃。",
+     "en": "Let's slow down and listen once through. Watch the light leap between the three vertices."
+    }
+   ],
+   "music_after_lines": {
+    "cue": "band_slow",
+    "offset": 0.6
+   }
+  },
+  {
+   "id": "S6",
+   "name": "工具 The Toolkit",
+   "lead_in": 1.0,
+   "tail": 1.0,
+   "lines": [
+    {
+     "id": "L23",
+     "zh": "在这样的和声上即兴，靠的不只是灵感，更是准备。柯川练习了大量的音型。",
+     "tts": "在这样的和声上即兴，靠的不只是灵感，更是准备。柯川练习了大量的音型。",
+     "en": "Improvising over these changes takes preparation as much as inspiration. Coltrane practised countless patterns."
+    },
+    {
+     "id": "L24",
+     "zh": "最著名的是「1-2-3-5」：根音、二级、三级、五级。四个八分音符，正好填满两拍。",
+     "tts": "最著名的，是一二三五：根音，二级，三级，五级。四个八分音符，正好填满两拍。",
+     "en": "The most famous is \"1-2-3-5\": root, second, third, fifth. Four eighth notes, exactly two beats."
+    },
+    {
+     "id": "L25",
+     "zh": "在 Bmaj7 上，是 B、C♯、D♯、F♯；换到 D7，就是 D、E、F♯、A。",
+     "tts": "在B大七上，是B，升C，升D，升F；换到D七，就是D，E，升F，A。",
+     "en": "On Bmaj7: B, C-sharp, D-sharp, F-sharp. On D7: D, E, F-sharp, A.",
+     "music_after": {
+      "cue": "demo_1235",
+      "offset": 0.4
+     }
+    },
+    {
+     "id": "L26",
+     "zh": "另一个关键是三音和七音，它们决定和弦的颜色。好的旋律线，会用最小的移动把它们连起来。",
+     "tts": "另一个关键，是三音和七音，它们决定和弦的颜色。好的旋律线，会用最小的移动，把它们连起来。",
+     "en": "Another key: the third and seventh, which give each chord its colour. A good line connects them with the smallest possible motion.",
+     "music_after": {
+      "cue": "demo_guide",
+      "offset": 0.4
+     }
+    },
+    {
+     "id": "L27",
+     "zh": "再加上半音的经过音和包围音，旋律就能在飞驰的和弦之间顺滑地流动。",
+     "tts": "再加上半音的经过音和包围音，旋律就能在飞驰的和弦之间，顺滑地流动。",
+     "en": "Add chromatic passing and enclosure notes, and the line flows smoothly between racing chords."
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "name": "慢速即兴 Slow Improvisation",
+   "lead_in": 0.8,
+   "tail": 1.0,
+   "lines": [
+    {
+     "id": "L28",
+     "zh": "下面这段即兴，由程序按照这些规则生成。先用慢速听两遍。每个音的颜色，代表它所属的调。",
+     "tts": "下面这段即兴，由程序按照这些规则生成。先用慢速听两遍。每个音的颜色，代表它所属的调。",
+     "en": "The following solo was generated by a program that follows these rules. First, two choruses at a slow tempo. Each note's colour shows the key it belongs to."
+    }
+   ],
+   "music_after_lines": {
+    "cue": "solo_slow",
+    "offset": 0.5
+   }
+  },
+  {
+   "id": "S8",
+   "name": "原速 Full Tempo",
+   "lead_in": 0.6,
+   "tail": 0.8,
+   "lines": [
+    {
+     "id": "L29",
+     "zh": "现在，回到柯川的速度。",
+     "tts": "现在，回到柯川的速度。",
+     "en": "Now, back to Coltrane's tempo."
+    }
+   ],
+   "music_after_lines": {
+    "cue": "solo_fast",
+    "offset": 0.3
+   }
+  },
+  {
+   "id": "S9",
+   "name": "尾声 Epilogue",
+   "lead_in": 1.0,
+   "tail": 7.0,
+   "lines": [
+    {
+     "id": "L30",
+     "zh": "Giant Steps 之后，柯川把这套方法用在许多曲子上，比如 Countdown 和 26-2。很快，他又走向更自由、更灵性的音乐。",
+     "tts": "Giant Steps 之后，柯川把这套方法用在许多曲子上，比如 Countdown，和二十六杠二。很快，他又走向更自由、更灵性的音乐。",
+     "en": "After Giant Steps, Coltrane applied the method to many tunes, such as Countdown and 26-2. Soon he moved on to freer, more spiritual music."
+    },
+    {
+     "id": "L31",
+     "zh": "但这首曲子留下的启示，至今仍在每一位爵士乐手心中回响：秩序足够深的地方，自由才真正开始。",
+     "tts": "但这首曲子留下的启示，至今仍在每一位爵士乐手心中回响：秩序足够深的地方，自由才真正开始。",
+     "en": "But its lesson still echoes in every jazz musician: where order runs deep enough, freedom truly begins."
+    }
+   ]
+  }
+ ],
+ "music_under": [
+  {
+   "cue": "ambient_intro",
+   "kind": "ambient",
+   "from": "S0",
+   "to": "S1",
+   "gain": 0.6,
+   "chords": [
+    "Bmaj7",
+    "Gmaj7",
+    "Ebmaj7",
+    "Bmaj7"
+   ],
+   "chord_seconds": 4.0
+  },
+  {
+   "cue": "iiVI_C",
+   "kind": "clause_chords",
+   "line": "L07",
+   "gain": 0.7,
+   "instrument": "ep",
+   "events": [
+    {
+     "clause": 3,
+     "chord": "Dm7"
+    },
+    {
+     "clause": 4,
+     "chord": "G7"
+    },
+    {
+     "clause": 5,
+     "chord": "Cmaj7",
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "cue": "three_tonics",
+   "kind": "clause_chords",
+   "line": "L12",
+   "gain": 0.7,
+   "instrument": "ep",
+   "events": [
+    {
+     "clause": 0,
+     "chord": "Bmaj7"
+    },
+    {
+     "clause": 2,
+     "chord": "Gmaj7"
+    },
+    {
+     "clause": 4,
+     "chord": "Ebmaj7"
+    },
+    {
+     "clause": 6,
+     "chord": "Bmaj7",
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "cue": "dominants",
+   "kind": "clause_chords",
+   "line": "L17",
+   "gain": 0.7,
+   "instrument": "ep",
+   "events": [
+    {
+     "clause": 0,
+     "chord": "D7"
+    },
+    {
+     "clause": 1,
+     "chord": "Gmaj7"
+    },
+    {
+     "clause": 2,
+     "chord": "Bb7"
+    },
+    {
+     "clause": 3,
+     "chord": "Ebmaj7"
+    },
+    {
+     "clause": 4,
+     "chord": "F#7"
+    },
+    {
+     "clause": 5,
+     "chord": "Bmaj7",
+     "hold": 2.5
+    }
+   ]
+  },
+  {
+   "cue": "notes_1235",
+   "kind": "clause_notes",
+   "line": "L25",
+   "gain": 0.75,
+   "instrument": "vibes",
+   "events": [
+    {
+     "clauses": [
+      1,
+      4
+     ],
+     "notes": [
+      71,
+      73,
+      75,
+      78
+     ]
+    },
+    {
+     "clauses": [
+      6,
+      9
+     ],
+     "notes": [
+      74,
+      76,
+      78,
+      81
+     ]
+    }
+   ],
+   "note": "notes are spread evenly over the clause span: clause boundaries of single letters are too short to detect reliably"
+  },
+  {
+   "cue": "ambient_outro",
+   "kind": "ambient",
+   "from": "S9",
+   "to": "S9",
+   "gain": 0.6,
+   "chords": [
+    "Bmaj7",
+    "Ebmaj7",
+    "Gmaj7",
+    "Bmaj7"
+   ],
+   "chord_seconds": 5.0
+  }
+ ],
+ "clause_split": "，。；：？！、"
+}

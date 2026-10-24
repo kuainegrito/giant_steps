@@ -1,0 +1,12 @@
+@font-face { font-family: "Noto Serif SC"; font-weight: 300; src: url("../assets/fonts/NotoSerifCJKsc-Light.otf"); }
+@font-face { font-family: "Noto Serif SC"; font-weight: 400; src: url("../assets/fonts/NotoSerifCJKsc-Regular.otf"); }
+@font-face { font-family: "Noto Serif SC"; font-weight: 600; src: url("../assets/fonts/NotoSerifCJKsc-SemiBold.otf"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 300; font-style: normal; src: url("../assets/fonts/cormorant-garamond-latin-300-normal.woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 300; font-style: italic; src: url("../assets/fonts/cormorant-garamond-latin-300-italic.woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 400; font-style: normal; src: url("../assets/fonts/cormorant-garamond-latin-400-normal.woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 400; font-style: italic; src: url("../assets/fonts/cormorant-garamond-latin-400-italic.woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 500; font-style: normal; src: url("../assets/fonts/cormorant-garamond-latin-500-normal.woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 600; font-style: normal; src: url("../assets/fonts/cormorant-garamond-latin-500-normal.woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 500; font-style: italic; src: url("../assets/fonts/cormorant-garamond-latin-500-italic.woff2"); }
+/* Accidentals only: CJK and Cormorant render ♭ ♯ too wide, DejaVu Serif has compact ones */
+@font-face { font-family: "Accidentals"; src: url("../assets/fonts/DejaVuSerif.ttf"); unicode-range: U+266D-266F, U+2229; }
